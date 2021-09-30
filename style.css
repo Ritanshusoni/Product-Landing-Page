@@ -1,0 +1,47 @@
+#header{
+    /* display: inline; */
+}
+
+#header-img{
+    width: 105px;
+    height: auto;
+    display: inline;
+}
+
+
+#nav-bar{
+    text-align:end;
+}
+.gallery{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+    line-height: 1.5em;
+    align-content: center;
+    position: center;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+#gallery{
+    text-align:center;
+    width: 100%;
+    height: auto;
+    size: 100%;
+
+
+}
+
+.about{
+    text-decoration: 2px underline olive;
+    padding: 5px;
+}
+
+#form{
+    display: block;
+}
+#aboutus{
+    text-align: center;
+}
