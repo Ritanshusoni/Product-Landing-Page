@@ -1,62 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Here is the header section -->
-    <header id="header">
-      <img src="images/soni_fruits_logo.png" alt="" id="header-img" />
-      <nav id="nav-bar">
-        <a href="#features" class="nav-bar">Features</a>
-        <a href="#product" class="nav-bar">Products</a>
-        <a href="#contact" class="nav-bar">Contact</a>
-      </nav>
-    </header>
-    <main>
 
-      
-      <!-- Here is the form section -->
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <div>
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Enter Your Name" required>
-        </div>
-        <div>
-          <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email" required/>
-      </div> 
-      <div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Here is the header section -->
+  <header id="header">
+    <span>
+    <img src="images/soni_fruits_logo.png" alt="Logo image of Soni Fruits" id="header-img" />
+  </span>
+  <span>
+    <nav id="nav-bar">
+      <a href="#aboutus" class="nav-bar">About us</a>
+      <a href="#gallery" class="nav-bar">Gallery</a>
+      <a href="#contact" class="nav-bar">Contact</a>
+    </nav>
+  </span>
+  </header>
+  <main>
+    <section id="aboutus">
+      <h2 class="about">About Us</h2>
+      <p>We provide 'Fresh n Delicious' fruits Coming direct from farm to you, Chemicals free and totally organic
+        products.</p>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <img src="images/Apples.jpg" alt="Image of Apples" class="gallery">
+      <!-- <img src="images/Bananas.jpg" alt="Image of Bananas" class="gallery"> -->
+      <img src="images/Mangoes.jpg" alt="Image of Mangoes" class="gallery">
+      <img src="images/Oranges.jpg" alt="Image of Oranges" class="gallery">
+      <img src="images/Pears.jpg" alt="Image of Pears" class="gallery">
+      <img src="images/Pomegranate.jpg" alt="Image of Pomegranate" class="gallery">
+      <img src="images/Grapes.jpg" alt="Image of Grapes" class="gallery">
+    </section>
+    <!-- Here is the form section -->
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <section> <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+      </section>
+      <section>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+      </section>
+      <section>
         <label for="details">Details</label>
-        <textarea name="details" id="details" cols="30" rows="10" placeholder="Please enter the details">Enter the details</textarea>
-      </div>
+        <textarea name="details" id="details" cols="30" rows="10"
+          placeholder="Please enter the details">Enter the details</textarea>
+      </section>
+      <section>
         <input type="submit" id="submit" />
-      </form>
+      </section>
+    </form>
 
-      <!-- Here is the product video section -->
-      <iframe 
-      width="560"
-       height="315" 
-       src="https://www.youtube.com/embed/2v3CWM5FmHs" 
-       title="YouTube video player" 
-       frameborder="0" 
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-       allowfullscreen>
-      </iframe>
-    </main>
-    <!-- Here is the page footer section -->
-    <footer id="contact">
-      <ul>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <span>&#169;Soni Fruits, 2021</span>
-      <a href="#" target="_self">skip to main content</a>
-    </footer>
-  </body>
+    <!-- Here is the product video section -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bGfJILzw6Mc" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </main>
+  <!-- Here is the page footer section -->
+  <footer id="contact">
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>&#169;Soni Fruits, 2021</span>
+    <!-- <a href="#" target="_self">skip to main content</a> -->
+  </footer>
+</body>
+
 </html>
