@@ -7,73 +7,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300&family=Roboto:wght@100;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <!-- Here is the header section -->
   <header id="header">
-    <span>
     <img src="images/soni_fruits_logo.png" alt="Logo image of Soni Fruits" id="header-img" />
-  </span>
-  <span>
     <nav id="nav-bar">
-      <a href="#aboutus" class="nav-bar">About us</a>
+      <a href="#aboutus" class="nav-bar">About</a>
       <a href="#gallery" class="nav-bar">Gallery</a>
-      <a href="#contact" class="nav-bar">Contact</a>
+      <a href="contact.html" class="nav-bar">Contact</a>
     </nav>
-  </span>
   </header>
   <main>
-    <section id="aboutus">
+    <h1 id="companyname">Soni fruits</h1>
+    <div id="aboutus">
       <h2 class="about">About Us</h2>
       <p>We provide 'Fresh n Delicious' fruits Coming direct from farm to you, Chemicals free and totally organic
         products.</p>
-    </section>
-    <section id="gallery">
+    </div>
+    <section id="gallery-text">
       <h2>Gallery</h2>
-      <img src="images/Apples.jpg" alt="Image of Apples" class="gallery">
-      <!-- <img src="images/Bananas.jpg" alt="Image of Bananas" class="gallery"> -->
+    </section>
+    <div id="gallery">
+      <!-- <img src="images/Apples.jpg" alt="Image of Apples" class="gallery"> -->
+
       <img src="images/Mangoes.jpg" alt="Image of Mangoes" class="gallery">
       <img src="images/Oranges.jpg" alt="Image of Oranges" class="gallery">
       <img src="images/Pears.jpg" alt="Image of Pears" class="gallery">
       <img src="images/Pomegranate.jpg" alt="Image of Pomegranate" class="gallery">
       <img src="images/Grapes.jpg" alt="Image of Grapes" class="gallery">
-    </section>
+      <img src="images/Bananas.jpg" alt="Image of Bananas" class="gallery">
+    </div>
     <!-- Here is the form section -->
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <section> <label for="name">Name</label>
+    <div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="name">Name:</label>
         <input type="text" id="name" placeholder="Enter Your Name" required>
-      </section>
-      <section>
-        <label for="email">Email:</label>
+        <label for="email">Email: </label>
         <input type="email" id="email" placeholder="Enter your email" required />
-      </section>
-      <section>
-        <label for="details">Details</label>
-        <textarea name="details" id="details" cols="30" rows="10"
-          placeholder="Please enter the details">Enter the details</textarea>
-      </section>
-      <section>
+        <label for="details">Details:</label>
+        <textarea name="details" id="details" cols="25" rows="5" placeholder="How can i help you?"></textarea>
         <input type="submit" id="submit" />
-      </section>
-    </form>
+      </form>
+    </div>
 
     <!-- Here is the product video section -->
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bGfJILzw6Mc" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
+    <div id="video">
+      <iframe src="https://www.youtube.com/embed/bGfJILzw6Mc" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
   </main>
   <!-- Here is the page footer section -->
-  <footer id="contact">
-    <ul>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <span>&#169;Soni Fruits, 2021</span>
-    <!-- <a href="#" target="_self">skip to main content</a> -->
+  <footer id="footer">
+    <section>
+      <ul>
+        <li><a href="#" class="footer-items">Home</a></li>
+        <li><a href="#" class="footer-items">About Us</a></li>
+        <li><a href="#" class="footer-items">Privacy Policy</a></li>
+        <li><a href="contact.html" class="footer-items">Contact Us</a></li>
+        <li><a href="#" class="footer-items">Feedback</a></li>
+      </ul>
+    </section>
+    <section>Copyright &#169 2021 Soni Fruits. All rights reserved.</section>
   </footer>
 </body>
 
