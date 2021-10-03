@@ -1,7 +1,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #457b9d;
 }
+
 #header {
   width: 100%;
   height: 70px;
@@ -9,6 +11,8 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  color: #f1faee;
+  background-color: #023047;
 }
 #header-img {
   width: 40%;
@@ -28,58 +32,72 @@ body {
   margin: 10px auto;
   display: inline;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: #f1faee;
+  background-color: #457b9d;
 }
 #companyname {
   text-align: center;
   text-transform: uppercase;
+  color: #f1faee;
+  background-color: #1d3557;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+  letter-spacing: 2px;
 }
 #gallery {
   width: 90%;
   height: auto;
-  padding: 0;
-  margin: 5px auto;
-  border: 2px solid #003049;
+  padding: 2px;
+  margin: 2px auto;
+  /* border: 2px solid #003049; */
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 img.gallery {
   width: 30%;
-  height: auto%;
-  margin-bottom: 5px;
-  padding: 5px;
-  border: 2px solid #003049;
+  height: auto;
+  margin-bottom: 2px;
+  /* border: 2px solid #003049; */
   padding: 2px;
-  margin: 5px auto;
+  margin: 2px;
 }
 #gallery-text {
   text-align: center;
-  text-decoration: 2px underline #1d1d1f;
+  text-decoration: 2px underline #a2d2ff;
   width: 90%;
-  height: 8%;
-  margin: 0 auto;
-  padding: 0;
-  background-color: #a57982;
-  color: #edf2f4;
+  height: auto;
+  margin: 2px auto;
+  padding: 2px;
+  background-color: #1d3557;
+  color: #f1faee;
 }
 
 #aboutus {
   width: 90%;
   height: auto;
-  border: 2px solid #6a66a3;
-  padding: auto;
+  padding: 2px;
   margin: 10px auto;
-  background-color: #ba5a31;
-  color: #edf2f4;
+  /* background-color: #1d3557; */
+  color: #f1faee;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about {
-  text-decoration: 2px underline olive;
-  padding: 10px;
+  /* padding: 10px; */
   font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1px;
+  margin-bottom: 2px;
 }
 
 #form {
@@ -97,14 +115,17 @@ img.gallery {
   margin: 2px;
 }
 #aboutus {
-  text-align: center;
 }
 
 #video {
-  border: 2px solid #003049;
+  /* border: 2px solid #003049; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
   padding: 5px;
   margin: 5px auto;
-  width: 300px;
+  width: 50%;
   height: auto;
 }
 
@@ -115,6 +136,8 @@ img.gallery {
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  text-decoration: none;
+
 }
 
 /* p #footer{
@@ -127,9 +150,26 @@ li {
   justify-content: space-evenly;
   text-decoration: none;
   flex-wrap: wrap;
+  color: #f1faee;
+}
+
+.contact {
+  text-align: center;
+  text-decoration: 2px underline black;
 }
 
 #contactform {
   display: flex;
+  width: 100%;
+  height: auto;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding: 5px auto;
+  border-radius: 10px;
+}
+.contact-form {
+  margin: 50x;
+  padding: 50px auto;
 }
